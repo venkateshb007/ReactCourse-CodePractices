@@ -1,6 +1,15 @@
+/*
+Bootstrap files and font awesome configuration
+*/
+import '@fortawesome/fontawesome-free/css/all.css';
+import 'mdbootstrap/css/bootstrap.css';
+import 'mdbootstrap/css/mdb.css';
+import './style.css'; //customized bootstrap styles
+
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './index.css'; //customized react component styles
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
