@@ -1,5 +1,5 @@
 import React from 'react';
-import RegistrationFrom from './components/RegistrationForm';
+import Employees from './components/Employees';
 
 function App() {
   return (
@@ -9,23 +9,32 @@ function App() {
         <a href="/" className="navbar-brand">React.js</a>
 
       </nav>
+
+      {/* 07-Props State Event Binding */}
+
       {/* <Counter/> */}
-
       {/* <WishMessage/> */}
-
       {/* <CartItem/> */}
 
+
+      {/* 08-Form Binding */}
+
       {/* <ChangeUserName/> */}
-
       {/* <LoginForm/> */}
-
       {/* <SelectBox/> */}
-
       {/* <ChangePassword/> */}
-
       {/* <SmsApp/> */}
+      {/* <RegistrationFrom/> */}
 
-      <RegistrationFrom/>
+
+      {/*09-conditionals and looping */}
+
+      {/* <AuthCard/> */}
+      {/* <HobbySelector/> */}
+      {/* <HobbyRadio/> */}
+      <Employees/>
+
+
 
    </React.Fragment>
   );

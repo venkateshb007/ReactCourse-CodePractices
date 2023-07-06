@@ -10,7 +10,7 @@
     background: linear-gradient(45deg, darkslategray, purple);
 }
 
-.btn-success{
+.btn-success, .bg-success{
     background: linear-gradient(45deg, darkslategray, limegreen);
 }
 
