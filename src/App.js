@@ -1,5 +1,6 @@
 import React from 'react';
 import Employees from './components/09-Conditionals Looping/Employees';
+import Customers from './components/09-Conditionals Looping/Customers';
 
 function App() {
   return (
@@ -32,8 +33,8 @@ function App() {
       {/* <AuthCard/> */}
       {/* <HobbySelector/> */}
       {/* <HobbyRadio/> */}
-      <Employees/>
-
+      {/* <Employees/> */}
+      <Customers/>
 
    </React.Fragment>
   );
