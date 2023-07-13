@@ -1,6 +1,5 @@
 import React from 'react';
-import Employees from './components/09-Conditionals Looping/Employees';
-import Customers from './components/09-Conditionals Looping/Customers';
+import Parent from './components/10-Component Interaction Props Drilling Context API/simple/Parent';
 
 function App() {
   return (
@@ -12,14 +11,12 @@ function App() {
       </nav>
 
       {/* 07-Props State Event Binding */}
-
       {/* <Counter/> */}
       {/* <WishMessage/> */}
       {/* <CartItem/> */}
 
 
       {/* 08-Form Binding */}
-
       {/* <ChangeUserName/> */}
       {/* <LoginForm/> */}
       {/* <SelectBox/> */}
@@ -29,12 +26,24 @@ function App() {
 
 
       {/*09-conditionals and looping */}
-
       {/* <AuthCard/> */}
       {/* <HobbySelector/> */}
       {/* <HobbyRadio/> */}
       {/* <Employees/> */}
-      <Customers/>
+      {/* <Customers/> */}
+
+
+      {/* Component Interaction Props Drilling Context API */}
+      <Parent/>
+
+
+
+
+
+
+
+
+
 
    </React.Fragment>
   );

@@ -4,6 +4,7 @@ Bootstrap files and font awesome configuration
 import '@fortawesome/fontawesome-free/css/all.css';
 import 'mdbootstrap/css/bootstrap.css';
 import 'mdbootstrap/css/mdb.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import './style.css'; //customized bootstrap styles
 
 
