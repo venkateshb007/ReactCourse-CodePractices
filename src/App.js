@@ -1,5 +1,5 @@
 import React from 'react';
-import Parent from './components/10-Component Interaction Props Drilling Context API/simple/Parent';
+import ParentCard from './components/10-Component Interaction Props Drilling Context API/intermediate/ParentCard';
 
 function App() {
   return (
@@ -34,8 +34,10 @@ function App() {
 
 
       {/* Component Interaction Props Drilling Context API */}
-      <Parent/>
-
+      {/* -----simple--- */}
+      {/* <Parent/> */}
+      {/* ---intermediate--- */}
+        <ParentCard/>
 
 
 
