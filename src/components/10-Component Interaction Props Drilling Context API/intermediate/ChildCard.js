@@ -1,7 +1,6 @@
 import React from 'react';
-import ChildCard from './ChildCard';
 
-class ParentCard extends React.Component{
+class ChildCard extends React.Component{
     constructor(props){
         super(props);
         this.state = {
@@ -15,19 +14,18 @@ class ParentCard extends React.Component{
                 <section className="p-3">
                     <div className="container">
                         <div className="row">
-                            <div className="col ">
-                                <div className="card ">
-                                    <div className="card-header rgba-amber-light">
-                                        <p className="h4 ">Parent Card</p>
-                                        <small>text from child</small>
+                            <div className="col">
+                                <div className="card">
+                                    <div className="card-header rgba-green-light">
+                                        <p className="h4">Child Card</p>
+                                        <small>text from parent</small>
                                     </div>
-                                    <div className="card-body  rgba-amber-light">
+                                    <div className="card-body rgba-green-light">
                                         <form className='form-inline' action="">
                                             <div className="from-group">
                                                 <input type="text" className="form-control" />
                                             </div>
                                         </form>
-                                            <ChildCard/>
                                     </div>
                                 </div>
                             </div>
@@ -39,4 +37,4 @@ class ParentCard extends React.Component{
     }
 }
 
-export default ParentCard;
+export default ChildCard;
